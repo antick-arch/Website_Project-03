@@ -13,4 +13,15 @@ function carousel() {
   setTimeout(carousel, 3000);
 }
 
-$(h1)
+gsap.from(".image",{
+  x:1200,
+  duration:2,
+  delay:1,
+  rotate:360
+})
+gsap.from(".About",{
+  x:1200,
+  duration:2,
+  delay:1,
+  backgroundColor:"blue"
+})
